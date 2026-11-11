@@ -1,43 +1,137 @@
-<h1>Background Information</h1>
+<!DOCTYPE html>
+<!-- Declares the document as an HTML5 webpage -->
 
-<section>
-  <h2>Long Division</h2>
+<html lang="en">
 
-  <h3>Description</h3>
-  <p>Long division is used when dividing polynomials by other polynomials.</p>
+<head>
+    <!-- Contains information about the webpage -->
+    <meta charset="UTF-8">
 
-  <h3>Rules</h3>
-  <ul>
-    <li>Divide leading terms.</li>
-    <li>Multiply.</li>
-    <li>Subtract.</li>
-    <li>Bring down the next term.</li>
-  </ul>
+    <!-- Makes the webpage responsive on different screen sizes -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <h3>When to Use It</h3>
-  <p>Use when the divisor is not in the form x - c.</p>
+    <!-- Title displayed in the browser tab -->
+    <title>Background Information</title>
+</head>
 
-  <h3>Example</h3>
-  <p>(x³ + 4x² - x + 6) ÷ (x² + 1)</p>
-</section>
+<body>
 
-<section>
-  <h2>Synthetic Division</h2>
+    <!-- Header Section:
+         Displays the page title and navigation menu
+         used to move between all sections of the website. -->
+    <header>
 
-  <h3>Description</h3>
-  <p>Synthetic division is a shortcut method for certain polynomial divisions.</p>
+        <h1>Background Information</h1>
 
-  <h3>Rules</h3>
-  <ul>
-    <li>Write only coefficients.</li>
-    <li>Use the root of the divisor.</li>
-    <li>Bring down the first coefficient.</li>
-    <li>Multiply and add repeatedly.</li>
-  </ul>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="background.html">Background</a> |
+            <a href="computation.html">Computation</a> |
+            <a href="practice.html">Practice Problems</a> |
+            <a href="resources.html">Resources</a>
+        </nav>
 
-  <h3>When to Use It</h3>
-  <p>Use when dividing by x - c.</p>
+    </header>
 
-  <h3>Example</h3>
-  <p>(x³ + 5x² + 2x - 8) ÷ (x - 2)</p>
-</section>
+    <!-- Main Content Section:
+         Contains educational information about
+         both long division and synthetic division. -->
+    <main>
+
+        <!-- Long Division Section:
+             Explains what long division is,
+             when it should be used,
+             and shows an example problem. -->
+        <section>
+
+            <h2>Long Division</h2>
+
+            <h3>Description</h3>
+
+            <p>
+                Long division is used to divide one polynomial
+                by another polynomial.
+            </p>
+
+            <h3>Rules</h3>
+
+            <ul>
+                <li>Divide the leading terms.</li>
+                <li>Multiply.</li>
+                <li>Subtract.</li>
+                <li>Bring down the next term.</li>
+                <li>Repeat until complete.</li>
+            </ul>
+
+            <h3>When to Use It</h3>
+
+            <p>
+                Long division is used whenever synthetic division
+                cannot be used.
+            </p>
+
+            <h3>Example</h3>
+
+            <p>
+                (x³ + 4x² - x + 6) ÷ (x² + 1)
+            </p>
+
+        </section>
+
+        <hr>
+
+        <!-- Synthetic Division Section:
+             Explains synthetic division,
+             the steps involved,
+             and when it can be used. -->
+        <section>
+
+            <h2>Synthetic Division</h2>
+
+            <h3>Description</h3>
+
+            <p>
+                Synthetic division is a shortcut method used
+                when dividing polynomials by expressions
+                in the form x - c.
+            </p>
+
+            <h3>Rules</h3>
+
+            <ul>
+                <li>Write only the coefficients.</li>
+                <li>Use the zero of the divisor.</li>
+                <li>Bring down the first coefficient.</li>
+                <li>Multiply and add repeatedly.</li>
+            </ul>
+
+            <h3>When to Use It</h3>
+
+            <p>
+                Synthetic division is used when the divisor
+                is a linear expression such as x - 2.
+            </p>
+
+            <h3>Example</h3>
+
+            <p>
+                (x³ + 5x² + 2x - 8) ÷ (x - 2)
+            </p>
+
+        </section>
+
+    </main>
+
+    <!-- Footer Section:
+         Displays project ownership information
+         and course information. -->
+    <footer>
+
+        <p>
+            Created by Alex Corradino for Precalculus with Mr. Li
+        </p>
+
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,153 @@
+/* ==========================
+   General Page Styling
+   Sets the font, background color,
+   and spacing for the entire website.
+   ========================== */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f8fc;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* ==========================
+   Header Styling
+   Styles the website title area
+   at the top of each page.
+   ========================== */
+
+header {
+    background-color: #0d47a1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* ==========================
+   Navigation Bar Styling
+   Styles the menu used to move
+   between website pages.
+   ========================== */
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ==========================
+   Main Content Styling
+   Controls spacing and layout
+   for the page content.
+   ========================== */
+
+main {
+    padding: 20px;
+}
+
+/* ==========================
+   Section Styling
+   Gives each content section
+   a clean card appearance.
+   ========================== */
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* ==========================
+   Heading Styling
+   Styles major page titles
+   and section headings.
+   ========================== */
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #0d47a1;
+}
+
+h3 {
+    color: #1565c0;
+}
+
+/* ==========================
+   List Styling
+   Formats ordered and unordered
+   lists used throughout the site.
+   ========================== */
+
+ul,
+ol {
+    margin-left: 20px;
+}
+
+/* ==========================
+   Input and Button Styling
+   Used on the computation page
+   for calculator inputs.
+   ========================== */
+
+input {
+    padding: 8px;
+    width: 250px;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #1565c0;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0d47a1;
+}
+
+/* ==========================
+   Footer Styling
+   Displays creator information
+   at the bottom of each page.
+   ========================== */
+
+footer {
+    background-color: #0d47a1;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* ==========================
+   Link Styling
+   Colors resource links and
+   improves readability.
+   ========================== */
+
+a {
+    color: #1565c0;
+}
+
+a:hover {
+    color: #0d47a1;
+}
